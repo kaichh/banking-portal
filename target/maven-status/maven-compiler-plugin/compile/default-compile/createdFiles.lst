@@ -1,0 +1,9 @@
+com/KC/bankingportal/BankingPortalApplication.class
+com/KC/bankingportal/model/Account.class
+com/KC/bankingportal/repository/AccountRepository.class
+com/KC/bankingportal/controller/ProductController.class
+com/KC/bankingportal/repository/UserRepository.class
+com/KC/bankingportal/controller/HelloController.class
+com/KC/bankingportal/model/User.class
+com/KC/bankingportal/entity/Product.class
+com/KC/bankingportal/model/Transaction.class
