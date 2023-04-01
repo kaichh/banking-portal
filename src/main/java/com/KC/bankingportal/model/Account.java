@@ -7,6 +7,8 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
+import java.util.List;
+
 @Entity
 @Table
 @Getter @Setter
@@ -26,5 +28,13 @@ public class Account {
     @Column(name = "balance")
     private BigDecimal balance;
 
+    // Create many-to-one relationship with User
+    @ManyToOne
+    @JoinColumn(name = "userid")
+    private User user;
 
+    // Create one-to-many relationship with Transaction
+    @OneToMany(mappedBy = "account", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<Transaction> transactions;
+    
 }

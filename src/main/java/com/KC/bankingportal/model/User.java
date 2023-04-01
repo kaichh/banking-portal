@@ -3,6 +3,7 @@ package com.KC.bankingportal.model;
 import lombok.*;
 
 import javax.persistence.*;
+import java.util.List;
 
 
 @Entity
@@ -17,11 +18,12 @@ public class User {
     private Long id;
     @Column(name = "name")
     private String name;
+    
 
-    @Column(name = "email")
-    private String email;
-
-
+    // Create one-to-many relationship with Account
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<Account> accounts;
+    
 
 
 }

@@ -28,4 +28,9 @@ public class Transaction {
     @Column(name = "description")
     private String description;
 
+    // Create many-to-one relationship with Account
+    @ManyToOne
+    @JoinColumn(name = "accountid")
+    private Account account;
+
 }
