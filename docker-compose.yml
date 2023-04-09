@@ -1,0 +1,25 @@
+version: "3"
+services:
+  server:
+    build: .
+    container_name: server
+#    image: ebankbackend
+    restart: always
+#    environment:
+#      - spring.datasource.url=jdbc:mysql://mysqldb:3306/ebankDB
+    ports:
+      - 8080:8080
+    depends_on:
+      - mysqldb
+  mysqldb:
+    platform: linux/x86_64
+    container_name: mysqldb
+    image: "mysql:8.0.32"
+    restart: always
+    ports:
+      - 3307:3306
+    environment:
+      MYSQL_DATABASE: ebankDB
+      MYSQL_USER: ebankadmin
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: password

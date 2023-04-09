@@ -1,13 +1,12 @@
-/Users/kchuang/CS self-studying/web/banking-portal/src/main/java/com/KC/bankingportal/entity/Product.java
-/Users/kchuang/CS self-studying/web/banking-portal/src/main/java/com/KC/bankingportal/model/User.java
-/Users/kchuang/CS self-studying/web/banking-portal/src/main/java/com/KC/bankingportal/model/Transaction.java
 /Users/kchuang/CS self-studying/web/banking-portal/src/main/java/com/KC/bankingportal/repository/AccountRepository.java
 /Users/kchuang/CS self-studying/web/banking-portal/src/main/java/com/KC/bankingportal/repository/UserRepository.java
-/Users/kchuang/CS self-studying/web/banking-portal/src/main/java/com/KC/bankingportal/controller/ProductController.java
+/Users/kchuang/CS self-studying/web/banking-portal/src/main/java/com/KC/bankingportal/model/User.java
 /Users/kchuang/CS self-studying/web/banking-portal/src/main/java/com/KC/bankingportal/response/TransactionResponse.java
 /Users/kchuang/CS self-studying/web/banking-portal/src/main/java/com/KC/bankingportal/service/AccountService.java
+/Users/kchuang/CS self-studying/web/banking-portal/src/main/java/com/KC/bankingportal/model/Transaction.java
 /Users/kchuang/CS self-studying/web/banking-portal/src/main/java/com/KC/bankingportal/repository/TransactionRepository.java
 /Users/kchuang/CS self-studying/web/banking-portal/src/main/java/com/KC/bankingportal/controller/TestController.java
 /Users/kchuang/CS self-studying/web/banking-portal/src/main/java/com/KC/bankingportal/model/Account.java
 /Users/kchuang/CS self-studying/web/banking-portal/src/main/java/com/KC/bankingportal/BankingPortalApplication.java
 /Users/kchuang/CS self-studying/web/banking-portal/src/main/java/com/KC/bankingportal/request/TransactionRequest.java
+/Users/kchuang/CS self-studying/web/banking-portal/src/main/java/com/KC/bankingportal/controller/AccountController.java
